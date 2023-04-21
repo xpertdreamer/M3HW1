@@ -6,8 +6,8 @@ public class Sword<T extends Metal>{
         material = mtl;
     }
 
-    public boolean checkEndurance()
+    public int checkEndurance()
     {
-        return material.getEndurance() > 49;
+        return material.getEndurance();
     }
 }
